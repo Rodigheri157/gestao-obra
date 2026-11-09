@@ -1,0 +1,36 @@
+{
+    "Civil": [
+        "Pedreiro",
+        "Carpinteiro",
+        "Armador",
+        "Servente",
+        "Operador De Maquina",
+        "Topografo",
+        "Greidista",
+        "Laboratorista",
+        "Montador De Estrutura/Telhador",
+        "Ajudante De Montador",
+        "Soldador Industrial",
+        "Serralheiro/Montador",
+        "Ajudante Serralheiro/Montador",
+        "Encanador Bombeiro",
+        "Eletricista Predial",
+        "Ajudante Eletricista"
+    ],
+    "Mecânica": [
+        "Soldados Industrial",
+        "Serralheiro/Montador",
+        "Ajudante/Servente",
+        "Rigger/Guindasteiro",
+        "Montador Industrial"
+    ],
+    "Elétrica": [
+        "Servente",
+        "Eletricista",
+        "Operador De Maquina"
+    ],
+    "Instrumentação": [
+        "Técnico Intrumentista",
+        "Ajudante"
+    ]
+}

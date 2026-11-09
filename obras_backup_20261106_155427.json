@@ -1,0 +1,2459 @@
+[
+    {
+        "projeto_nome": "Viamaris",
+        "area_nome": "Armazenamento",
+        "obra_nome": "Silo 01",
+        "disciplinas": {
+            "Civil": {
+                "Serviços Preliminares": [
+                    {
+                        "nome": "Limpeza De Terreno",
+                        "unidade": "m2",
+                        "quantidade_fisica": 900.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 9,
+                        "quantidade_executada": 500.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "id": 1,
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": null,
+                                "acumulado": 500.0
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Locação De Obra",
+                        "unidade": "m2",
+                        "quantidade_fisica": 900.0,
+                        "producao_equipe_dia": 32.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 15,
+                        "quantidade_executada": 250.0,
+                        "equipe_basica": {
+                            "Carpinteiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "id": 2,
+                        "predecessoras": [
+                            {
+                                "id": 1,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": [
+                            {
+                                "data": null,
+                                "acumulado": 250.0
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "projeto_nome": "Viamaris",
+        "area_nome": "Recebimento",
+        "obra_nome": "Classificação",
+        "disciplinas": {
+            "Civil": {
+                "Serviços Preliminares": [
+                    {
+                        "id": 40,
+                        "nome": "Limpeza De Terreno",
+                        "unidade": "m2",
+                        "quantidade_fisica": 1250.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 13,
+                        "quantidade_executada": 1250.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 1250.0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 41,
+                        "nome": "Locação De Obra",
+                        "unidade": "m2",
+                        "quantidade_fisica": 1250.0,
+                        "producao_equipe_dia": 32.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 20,
+                        "quantidade_executada": 1250.0,
+                        "equipe_basica": {
+                            "Carpinteiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 1250.0
+                            }
+                        ]
+                    }
+                ],
+                "Infraestrutura": [
+                    {
+                        "id": 9,
+                        "nome": "Perfuração De Estaca Diametro De 800 Mm",
+                        "unidade": "m",
+                        "quantidade_fisica": 50.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 50.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 1,
+                            "Servente": 3
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 50.0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "nome": "Corte E Dobra De Aço",
+                        "unidade": "kg",
+                        "quantidade_fisica": 1692.0,
+                        "producao_equipe_dia": 100.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 9,
+                        "quantidade_executada": 1692.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 1692.0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 11,
+                        "nome": "Montagem De Aço",
+                        "unidade": "kg",
+                        "quantidade_fisica": 1692.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 17,
+                        "quantidade_executada": 1692.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 1692.0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "nome": "Concretagem De Estaca",
+                        "unidade": "m3",
+                        "quantidade_fisica": 25.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 25.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 25.0
+                            }
+                        ]
+                    }
+                ],
+                "Superestrutura - Pre Moldados": [
+                    {
+                        "id": 13,
+                        "nome": "Fabricaçao De Pré Moldados",
+                        "unidade": "un",
+                        "quantidade_fisica": 54.0,
+                        "producao_equipe_dia": 0.8,
+                        "quantidade_equipes": 3,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 23,
+                        "quantidade_executada": 54.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Armador": 1,
+                            "Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 54.0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "nome": "Montagem De Pilares Pré Moldados",
+                        "unidade": "un",
+                        "quantidade_fisica": 28.0,
+                        "producao_equipe_dia": 2.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 14,
+                        "quantidade_executada": 28.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 28.0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 15,
+                        "nome": "Montagem De Paredes E Vigas Pré Moldadas",
+                        "unidade": "un",
+                        "quantidade_fisica": 10.0,
+                        "producao_equipe_dia": 4.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 3,
+                        "quantidade_executada": 10.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 10.0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 16,
+                        "nome": "Montagem De Laje Pré Moldada",
+                        "unidade": "un",
+                        "quantidade_fisica": 16.0,
+                        "producao_equipe_dia": 5.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 4,
+                        "quantidade_executada": 16.0,
+                        "equipe_basica": {
+                            "Pedreiro": 2,
+                            "Servente": 2,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 16.0
+                            }
+                        ]
+                    }
+                ],
+                "Alvenaria E Divisórias": [
+                    {
+                        "id": 21,
+                        "nome": "Alvenaria De Tijolo 15 Cm",
+                        "unidade": "m2",
+                        "quantidade_fisica": 106.0,
+                        "producao_equipe_dia": 6.8,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 8,
+                        "quantidade_executada": 50.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-06",
+                                "acumulado": 50.0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 22,
+                        "nome": "Chapisco Convencional",
+                        "unidade": "m2",
+                        "quantidade_fisica": 212.0,
+                        "producao_equipe_dia": 64.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 23,
+                        "nome": "Reboco / Massa Única",
+                        "unidade": "m2",
+                        "quantidade_fisica": 212.0,
+                        "producao_equipe_dia": 10.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 11,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Instalações Hidraulicas": [
+                    {
+                        "id": 42,
+                        "nome": "Banheiro Simples Completo (Intalaçao Embutida Na Alvenaria)",
+                        "unidade": "un",
+                        "quantidade_fisica": 1.0,
+                        "producao_equipe_dia": 0.4,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Encanador Bombeiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 43,
+                        "nome": "Instalação De Louças E Metais",
+                        "unidade": "un",
+                        "quantidade_fisica": 3.0,
+                        "producao_equipe_dia": 1.28,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 3,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Encanador Bombeiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Eletrica Predial": [
+                    {
+                        "id": 29,
+                        "nome": "Pug Completo (Infra + Fiação + Dispositivo)",
+                        "unidade": "un",
+                        "quantidade_fisica": 30.0,
+                        "producao_equipe_dia": 5.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 6,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Eletricista Predial": 1,
+                            "Ajudante Eletricista": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 101,
+                        "nome": "Instalação De Caixa De Passagem Pré Moldade (40X40X40) Com Tampa",
+                        "complemento": "",
+                        "unidade": "un",
+                        "quantidade_fisica": 2.0,
+                        "producao_equipe_dia": 4.8,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 102,
+                        "nome": "Escavação De Vala, Assentamento De Eletroduto Flexível E Reaterro Compactado",
+                        "complemento": "",
+                        "unidade": "m",
+                        "quantidade_fisica": 50.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 1,
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Cobetura Metalica": [
+                    {
+                        "id": 50,
+                        "nome": "Fabricação De Estrutura Metálica Para Cobertura",
+                        "unidade": "kg",
+                        "quantidade_fisica": 20602.0,
+                        "producao_equipe_dia": 240.0,
+                        "quantidade_equipes": 3,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 29,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Soldador Industrial": 1,
+                            "Serralheiro/Montador": 1,
+                            "Ajudante Serralheiro/Montador": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 51,
+                        "nome": "Montagem De Estrutura Metalica Para Cobertura",
+                        "unidade": "kg",
+                        "quantidade_fisica": 20602.0,
+                        "producao_equipe_dia": 160.0,
+                        "quantidade_equipes": 3,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 43,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Serralheiro/Montador": 1,
+                            "Ajudante Serralheiro/Montador": 1,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 27,
+                        "nome": "Montagem De Telha Metalica Para Cobertura",
+                        "unidade": "m2",
+                        "quantidade_fisica": 1165.0,
+                        "producao_equipe_dia": 24.0,
+                        "quantidade_equipes": 3,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 17,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Serralheiro/Montador": 1,
+                            "Ajudante Serralheiro/Montador": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 28,
+                        "nome": "Montagem De Telha Metálica Para Platibanda",
+                        "unidade": "m2",
+                        "quantidade_fisica": 1250.0,
+                        "producao_equipe_dia": 16.0,
+                        "quantidade_equipes": 3,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 27,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Serralheiro/Montador": 1,
+                            "Ajudante Serralheiro/Montador": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Forro": [
+                    {
+                        "id": 24,
+                        "nome": "Forro Com Telha Termoacustica",
+                        "unidade": "m2",
+                        "quantidade_fisica": 90.29,
+                        "producao_equipe_dia": 14.4,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 7,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Montador De Estrutura/Telhador": 1,
+                            "Ajudante De Montador": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Esquadrias": [
+                    {
+                        "id": 30,
+                        "nome": "Instalação De Porta 1 Folha",
+                        "unidade": "un",
+                        "quantidade_fisica": 2.0,
+                        "producao_equipe_dia": 2.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 31,
+                        "nome": "Instalação De Janela (M2)",
+                        "unidade": "m2",
+                        "quantidade_fisica": 18.0,
+                        "producao_equipe_dia": 4.4,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 5,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Pisos Industriais": [
+                    {
+                        "id": 17,
+                        "nome": "Preparação De Sub Base, Instalação De Formas De Junta E Lona Plastica",
+                        "unidade": "m2",
+                        "quantidade_fisica": 1151.0,
+                        "producao_equipe_dia": 40.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 15,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 18,
+                        "nome": "Posicionamento De Armação Em Tela Soldada Dupla",
+                        "unidade": "m2",
+                        "quantidade_fisica": 1151.0,
+                        "producao_equipe_dia": 56.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 11,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 19,
+                        "nome": "Concretagem, Lançamento E Reguagem",
+                        "unidade": "m2",
+                        "quantidade_fisica": 1151.0,
+                        "producao_equipe_dia": 44.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 27,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 20,
+                        "nome": "Acabamento Mecanico Com Bailarina",
+                        "unidade": "m2",
+                        "quantidade_fisica": 1151.0,
+                        "producao_equipe_dia": 48.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 24,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 39,
+                        "nome": "Execução De Calçada Externa 1 Metro",
+                        "unidade": "m",
+                        "quantidade_fisica": 166.0,
+                        "producao_equipe_dia": 5.6,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 15,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Estruturas Metálicas": [
+                    {
+                        "id": 48,
+                        "nome": "Fabricação De Estrutura Metálica Em Oficina/Galpão",
+                        "unidade": "kg",
+                        "quantidade_fisica": 15120.0,
+                        "producao_equipe_dia": 280.0,
+                        "quantidade_equipes": 3,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 18,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Serralheiro/Montador": 1,
+                            "Soldador Industrial": 1,
+                            "Ajudante Serralheiro/Montador": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 49,
+                        "nome": "Montagem E Fixação De Estruturas Metalicas Em Canteiro (Passarelas/Escadas)",
+                        "unidade": "kg",
+                        "quantidade_fisica": 15120.0,
+                        "producao_equipe_dia": 560.0,
+                        "quantidade_equipes": 3,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 9,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Montador De Estrutura/Telhador": 1,
+                            "Ajudante De Montador": 1,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 47,
+                        "nome": "Fabricação E Instalação De Guarda Corpo Tubular Em Aço Carbono",
+                        "unidade": "m",
+                        "quantidade_fisica": 432.0,
+                        "producao_equipe_dia": 4.0,
+                        "quantidade_equipes": 3,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 36,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Serralheiro/Montador": 1,
+                            "Montador De Estrutura/Telhador": 1,
+                            "Ajudante De Montador": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ]
+            },
+            "Elétrica": {
+                "Spda": [
+                    {
+                        "id": 32,
+                        "nome": "Escavação Mecanizada De Vala",
+                        "unidade": "m",
+                        "quantidade_fisica": 166.0,
+                        "producao_equipe_dia": 160.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Servente": 1,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 34,
+                        "nome": "Cravação De Haste De Aterramento E Solda Exotermica",
+                        "unidade": "un",
+                        "quantidade_fisica": 8.0,
+                        "producao_equipe_dia": 8.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Eletricista": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 35,
+                        "nome": "Lançamento De Cabo De Cobre Nu Em Vala",
+                        "unidade": "m",
+                        "quantidade_fisica": 166.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 4,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Eletricista": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 36,
+                        "nome": "Condutor De Descida",
+                        "unidade": "m",
+                        "quantidade_fisica": 24.0,
+                        "producao_equipe_dia": 16.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Eletricista": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 37,
+                        "nome": "Malha De Captação Média Em Cobertura",
+                        "unidade": "m",
+                        "quantidade_fisica": 166.0,
+                        "producao_equipe_dia": 16.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 3,
+                        "duracao_dias_planejada": 11,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Eletricista": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 38,
+                        "nome": "Instalação De Mastro De Captador Franklin",
+                        "unidade": "un",
+                        "quantidade_fisica": 2.0,
+                        "producao_equipe_dia": 2.4,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Eletricista": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "projeto_nome": "Viamaris",
+        "area_nome": "Recebimento",
+        "obra_nome": "Balança De Entrada",
+        "disciplinas": {
+            "Civil": {
+                "Serviços Preliminares": [
+                    {
+                        "id": 52,
+                        "nome": "Limpeza De Terreno",
+                        "unidade": "m2",
+                        "quantidade_fisica": 200.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 4,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 53,
+                        "nome": "Locação De Obra",
+                        "unidade": "m2",
+                        "quantidade_fisica": 200.0,
+                        "producao_equipe_dia": 32.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 7,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Carpinteiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 83,
+                        "nome": "Locação De Obra",
+                        "complemento": "Sala da Balança",
+                        "unidade": "m2",
+                        "quantidade_fisica": 3.0,
+                        "producao_equipe_dia": 32.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Carpinteiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Infraestrutura": [
+                    {
+                        "id": 54,
+                        "nome": "Perfuração De Estacas Com Perfuratriz",
+                        "unidade": "m",
+                        "quantidade_fisica": 196.0,
+                        "producao_equipe_dia": 30.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 7,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 1,
+                            "Pedreiro": 1,
+                            "Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [],
+                        "complemento": "Plataforma Balança"
+                    },
+                    {
+                        "id": 63,
+                        "nome": "Corte E Dobra De Aço Para Estacas",
+                        "unidade": "kg",
+                        "quantidade_fisica": 587.0,
+                        "producao_equipe_dia": 175.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [],
+                        "complemento": "Plaforma balança"
+                    },
+                    {
+                        "id": 64,
+                        "nome": "Montagem De Aço Para Estacas",
+                        "unidade": "kg",
+                        "quantidade_fisica": 587.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 6,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 57,
+                        "nome": "Concretagem De Estaca",
+                        "unidade": "m3",
+                        "quantidade_fisica": 27.4,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 58,
+                        "nome": "Arrasamento De Estacas (30 A 40 Cm)",
+                        "unidade": "un",
+                        "quantidade_fisica": 28.0,
+                        "producao_equipe_dia": 4.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 4,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 65,
+                        "nome": "Escavação Manual 1Ra Cat Para Blocos De Concreto",
+                        "unidade": "m3",
+                        "quantidade_fisica": 11.5,
+                        "producao_equipe_dia": 10.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 5
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 60,
+                        "nome": "Corte E Dobra De Aço Para Blocos",
+                        "unidade": "kg",
+                        "quantidade_fisica": 555.0,
+                        "producao_equipe_dia": 100.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 3,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 61,
+                        "nome": "Montagem De Aço Para Blocos",
+                        "unidade": "kg",
+                        "quantidade_fisica": 555.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 6,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 62,
+                        "nome": "Concretagem De Blocos",
+                        "unidade": "m3",
+                        "quantidade_fisica": 11.27,
+                        "producao_equipe_dia": 60.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 66,
+                        "nome": "Escavação De Vigas Baldrames",
+                        "unidade": "m3",
+                        "quantidade_fisica": 7.0,
+                        "producao_equipe_dia": 10.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 5
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 67,
+                        "nome": "Corte E Dobra De Aço Para Vigas",
+                        "unidade": "kg",
+                        "quantidade_fisica": 70.0,
+                        "producao_equipe_dia": 100.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 68,
+                        "nome": "Montagem De Aço Para Vigas",
+                        "unidade": "kg",
+                        "quantidade_fisica": 70.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 69,
+                        "nome": "Concretagem De Vigas Baldrames",
+                        "unidade": "m3",
+                        "quantidade_fisica": 7.0,
+                        "producao_equipe_dia": 60.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 84,
+                        "nome": "Perfuração De Estacas Com Perfuratriz",
+                        "complemento": "Sala da balança",
+                        "unidade": "m",
+                        "quantidade_fisica": 24.0,
+                        "producao_equipe_dia": 30.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 1,
+                            "Pedreiro": 1,
+                            "Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 85,
+                        "nome": "Corte E Dobra De Aço Para Estacas",
+                        "complemento": "Sala Balança",
+                        "unidade": "kg",
+                        "quantidade_fisica": 80.0,
+                        "producao_equipe_dia": 175.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 86,
+                        "nome": "Montagem De Aço Para Estacas",
+                        "complemento": "Sala balança",
+                        "unidade": "kg",
+                        "quantidade_fisica": 80.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 87,
+                        "nome": "Concretagem De Estaca",
+                        "complemento": "Sala Balança",
+                        "unidade": "m3",
+                        "quantidade_fisica": 3.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Superestrutura - Balança Rodoviária": [
+                    {
+                        "id": 70,
+                        "nome": "Fabricação E Colocação De Forma Para Laje De Balança De 30 Metros",
+                        "unidade": "un",
+                        "quantidade_fisica": 1.0,
+                        "producao_equipe_dia": 0.08,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 7,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Carpinteiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 71,
+                        "nome": "Corte E Dobra De Aço Ca-50",
+                        "unidade": "kg",
+                        "quantidade_fisica": 1500.0,
+                        "producao_equipe_dia": 100.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 8,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 72,
+                        "nome": "Montagem De Aço",
+                        "unidade": "kg",
+                        "quantidade_fisica": 1500.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 15,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 73,
+                        "nome": "Concretagem",
+                        "unidade": "m3",
+                        "quantidade_fisica": 15.0,
+                        "producao_equipe_dia": 60.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 74,
+                        "nome": "Desforma",
+                        "unidade": "un",
+                        "quantidade_fisica": 1.0,
+                        "producao_equipe_dia": 0.5,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Carpinteiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Superestrutura - Vigas": [
+                    {
+                        "id": 75,
+                        "nome": "Fabricaçãoe Montagem De Formas",
+                        "complemento": "Rampas de acesso",
+                        "unidade": "m2",
+                        "quantidade_fisica": 54.56,
+                        "producao_equipe_dia": 2.94,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 10,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Carpinteiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 77,
+                        "nome": "Corte E Dobra De Aço Ca-50",
+                        "complemento": "Rampas de acesso",
+                        "unidade": "kg",
+                        "quantidade_fisica": 899.0,
+                        "producao_equipe_dia": 100.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 5,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 78,
+                        "nome": "Montagem De Aço Ca-50",
+                        "complemento": "Rampas de acesso",
+                        "unidade": "kg",
+                        "quantidade_fisica": 857.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 9,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Pisos Industriais": [
+                    {
+                        "id": 76,
+                        "nome": "Aterro Compactado Em Área Confinada",
+                        "complemento": "Rampas de acesso",
+                        "unidade": "m3",
+                        "quantidade_fisica": 4.95,
+                        "producao_equipe_dia": 4.8,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 80,
+                        "nome": "Preparação De Sub Base, Instalação De Formas De Junta E Lona Plastica",
+                        "complemento": "Rampas Balança",
+                        "unidade": "m2",
+                        "quantidade_fisica": 60.8,
+                        "producao_equipe_dia": 40.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 81,
+                        "nome": "Posicionamento De Armação Em Tela Soldada Dupla",
+                        "complemento": "Rampas Balança",
+                        "unidade": "m2",
+                        "quantidade_fisica": 60.8,
+                        "producao_equipe_dia": 56.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 82,
+                        "nome": "Concretagem, Lançamento E Reguagem",
+                        "complemento": "Rampas Balança",
+                        "unidade": "m2",
+                        "quantidade_fisica": 60.8,
+                        "producao_equipe_dia": 44.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Superestrutura - Pre Moldados": [
+                    {
+                        "id": 88,
+                        "nome": "Fabricaçao De Pré Moldados",
+                        "complemento": "Sala Balança",
+                        "unidade": "un",
+                        "quantidade_fisica": 17.0,
+                        "producao_equipe_dia": 0.8,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 22,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Armador": 1,
+                            "Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 89,
+                        "nome": "Montagem De Pilares Pré Moldados",
+                        "complemento": "Sala Balança",
+                        "unidade": "un",
+                        "quantidade_fisica": 4.0,
+                        "producao_equipe_dia": 2.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 90,
+                        "nome": "Montagem De Paredes E Vigas Pré Moldadas",
+                        "complemento": "Sala Balança",
+                        "unidade": "un",
+                        "quantidade_fisica": 12.0,
+                        "producao_equipe_dia": 4.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 3,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 91,
+                        "nome": "Montagem De Laje Pré Moldada",
+                        "complemento": "Sala Balança",
+                        "unidade": "un",
+                        "quantidade_fisica": 1.0,
+                        "producao_equipe_dia": 5.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 2,
+                            "Servente": 2,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Piso Predial": [
+                    {
+                        "id": 92,
+                        "nome": "Execução De Contrapiso",
+                        "complemento": "Sala Balança",
+                        "unidade": "m2",
+                        "quantidade_fisica": 3.0,
+                        "producao_equipe_dia": 10.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 93,
+                        "nome": "Aplicação De Piso Ceramico",
+                        "complemento": "Sala Balança",
+                        "unidade": "m2",
+                        "quantidade_fisica": 3.0,
+                        "producao_equipe_dia": 8.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Forro": [
+                    {
+                        "id": 94,
+                        "nome": "Forro Com Telha Termoacustica",
+                        "complemento": "Sala Balança",
+                        "unidade": "m2",
+                        "quantidade_fisica": 3.0,
+                        "producao_equipe_dia": 14.4,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Montador De Estrutura/Telhador": 1,
+                            "Ajudante De Montador": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Esquadrias": [
+                    {
+                        "id": 95,
+                        "nome": "Instalação De Porta 1 Folha",
+                        "complemento": "Sala Balança",
+                        "unidade": "un",
+                        "quantidade_fisica": 1.0,
+                        "producao_equipe_dia": 2.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ],
+                "Eletrica Predial": [
+                    {
+                        "id": 100,
+                        "nome": "Pug Completo (Infra + Fiação + Dispositivo)",
+                        "complemento": "Sala Balança",
+                        "unidade": "un",
+                        "quantidade_fisica": 7.0,
+                        "producao_equipe_dia": 5.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Eletricista Predial": 1,
+                            "Ajudante Eletricista": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 103,
+                        "nome": "Instalação De Caixa De Passagem Pré Moldade (40X40X40) Com Tampa",
+                        "complemento": "",
+                        "unidade": "un",
+                        "quantidade_fisica": 1.0,
+                        "producao_equipe_dia": 4.8,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ]
+            },
+            "Elétrica": {
+                "Spda": [
+                    {
+                        "id": 97,
+                        "nome": "Escavação Mecanizada De Vala",
+                        "complemento": "",
+                        "unidade": "m",
+                        "quantidade_fisica": 74.0,
+                        "producao_equipe_dia": 160.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Servente": 1,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 98,
+                        "nome": "Lançamento De Cabo De Cobre Nu Em Vala",
+                        "complemento": "",
+                        "unidade": "m",
+                        "quantidade_fisica": 74.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Eletricista": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 99,
+                        "nome": "Cravação De Haste De Aterramento E Solda Exotermica",
+                        "complemento": "",
+                        "unidade": "un",
+                        "quantidade_fisica": 8.0,
+                        "producao_equipe_dia": 8.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Eletricista": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ]
+            },
+            "Instrumentação": {
+                "Instalação De Instrumentos": [
+                    {
+                        "id": 104,
+                        "nome": "Instalação De Instrumento De Campo De Pequeno/Médio Porte",
+                        "complemento": "Células de carga",
+                        "unidade": "un",
+                        "quantidade_fisica": 10.0,
+                        "producao_equipe_dia": 1.6,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 7,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Técnico Intrumentista": 1,
+                            "Ajudante": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": []
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "projeto_nome": "Grao Para",
+        "area_nome": "Armazenagem De Grãos",
+        "obra_nome": "Terraplanagem",
+        "disciplinas": {
+            "Civil": {
+                "Terraplanagem": [
+                    {
+                        "id": 1,
+                        "nome": "Limpeza De Camada Vegetal",
+                        "unidade": "m2",
+                        "quantidade_fisica": 63500.0,
+                        "producao_equipe_dia": 12000.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 6,
+                        "quantidade_executada": 20000.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-04",
+                                "acumulado": 20000.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-06"
+                    },
+                    {
+                        "id": 2,
+                        "nome": "Aterro Compactado De Solo 1Ra Categoria Com Uso De Motoniveladora, Caminhao Pipa E Rolo Pé De Carneiro",
+                        "unidade": "m3",
+                        "quantidade_fisica": 300000.0,
+                        "producao_equipe_dia": 720.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 209,
+                        "quantidade_executada": 55000.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 3,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 1,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": [
+                            {
+                                "data": "2026-11-04",
+                                "acumulado": 55000.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-06"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "projeto_nome": "Grao Para",
+        "area_nome": "Caldeira",
+        "obra_nome": "Terraplanagem",
+        "disciplinas": {
+            "Civil": {
+                "Terraplanagem": [
+                    {
+                        "id": 3,
+                        "nome": "Limpeza De Camada Vegetal",
+                        "unidade": "m2",
+                        "quantidade_fisica": 10000.0,
+                        "producao_equipe_dia": 12000.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 1,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 4,
+                        "nome": "Aterro Compactado De Solo 1Ra Categoria Com Uso De Motoniveladora, Caminhao Pipa E Rolo Pé De Carneiro",
+                        "unidade": "m3",
+                        "quantidade_fisica": 50000.0,
+                        "producao_equipe_dia": 720.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 70,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 3,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 3,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "projeto_nome": "Grao Para",
+        "area_nome": "Destilaria",
+        "obra_nome": "Terraplanagem",
+        "disciplinas": {
+            "Civil": {
+                "Terraplanagem": [
+                    {
+                        "id": 5,
+                        "nome": "Limpeza De Camada Vegetal",
+                        "unidade": "m2",
+                        "quantidade_fisica": 10000.0,
+                        "producao_equipe_dia": 12000.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 3,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 6,
+                        "nome": "Corte E Trasporte De Solo De 1Ra Categoria",
+                        "unidade": "m3",
+                        "quantidade_fisica": 50000.0,
+                        "producao_equipe_dia": 920.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 28,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 5
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 5,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "projeto_nome": "Grao Para",
+        "area_nome": "Armazem De Ddgs",
+        "obra_nome": "Terraplanagem",
+        "disciplinas": {
+            "Civil": {
+                "Terraplanagem": [
+                    {
+                        "id": 7,
+                        "nome": "Corte E Trasporte De Solo De 1Ra Categoria",
+                        "unidade": "m3",
+                        "quantidade_fisica": 10000.0,
+                        "producao_equipe_dia": 920.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 11,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 5
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 6,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 8,
+                        "nome": "Corte E Trasporte De Solo De 1Ra Categoria",
+                        "unidade": "m3",
+                        "quantidade_fisica": 5000.0,
+                        "producao_equipe_dia": 920.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 6,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 5
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 7,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "projeto_nome": "Grao Para",
+        "area_nome": "Áreas De Apoio",
+        "obra_nome": "Portaria Principal",
+        "disciplinas": {
+            "Civil": {
+                "Terraplanagem": [
+                    {
+                        "id": 22,
+                        "nome": "Limpeza De Camada Vegetal",
+                        "unidade": "m2",
+                        "quantidade_fisica": 200.0,
+                        "producao_equipe_dia": 12000.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 200.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [],
+                        "medicoes": [
+                            {
+                                "data": "2027-01-10",
+                                "acumulado": 200.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-05",
+                        "termino_real": "2027-01-07"
+                    },
+                    {
+                        "id": 23,
+                        "nome": "Corte E Trasporte De Solo De 1Ra Categoria",
+                        "unidade": "m3",
+                        "quantidade_fisica": 25.0,
+                        "producao_equipe_dia": 920.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 25.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 5
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 7,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            },
+                            {
+                                "id": 22,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": [
+                            {
+                                "data": "2027-01-10",
+                                "acumulado": 25.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-08"
+                    }
+                ],
+                "Serviços Preliminares": [
+                    {
+                        "id": 9,
+                        "nome": "Limpeza De Terreno",
+                        "unidade": "m2",
+                        "quantidade_fisica": 250.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 5,
+                        "quantidade_executada": 250.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 23,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": [
+                            {
+                                "data": "2027-01-10",
+                                "acumulado": 250.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-08"
+                    },
+                    {
+                        "id": 10,
+                        "nome": "Locação De Obra",
+                        "unidade": "m2",
+                        "quantidade_fisica": 200.0,
+                        "producao_equipe_dia": 32.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 4,
+                        "quantidade_executada": 200.0,
+                        "equipe_basica": {
+                            "Carpinteiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 9,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": [
+                            {
+                                "data": "2027-01-10",
+                                "acumulado": 200.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-08"
+                    }
+                ],
+                "Infraestrutura": [
+                    {
+                        "id": 11,
+                        "nome": "Perfuração De Estacas Com Perfuratriz",
+                        "unidade": "m",
+                        "quantidade_fisica": 60.0,
+                        "producao_equipe_dia": 30.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 2,
+                        "quantidade_executada": 50.0,
+                        "equipe_basica": {
+                            "Operador De Maquina": 1,
+                            "Pedreiro": 1,
+                            "Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 10,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": [
+                            {
+                                "data": "2027-01-10",
+                                "acumulado": 50.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-08"
+                    },
+                    {
+                        "id": 12,
+                        "nome": "Corte E Dobra De Aço",
+                        "unidade": "kg",
+                        "quantidade_fisica": 300.0,
+                        "producao_equipe_dia": 100.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 3,
+                        "quantidade_executada": 150.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 9,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": [
+                            {
+                                "data": "2027-01-10",
+                                "acumulado": 150.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-08"
+                    },
+                    {
+                        "id": 13,
+                        "nome": "Montagem De Aço",
+                        "unidade": "kg",
+                        "quantidade_fisica": 300.0,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 6,
+                        "quantidade_executada": 100.0,
+                        "equipe_basica": {
+                            "Armador": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 12,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            },
+                            {
+                                "id": 11,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": [
+                            {
+                                "data": "2027-01-10",
+                                "acumulado": 100.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-08"
+                    },
+                    {
+                        "id": 14,
+                        "nome": "Concretagem De Estaca",
+                        "unidade": "m3",
+                        "quantidade_fisica": 7.5,
+                        "producao_equipe_dia": 50.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 1,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 13,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    }
+                ],
+                "Superestrutura - Pre Moldados": [
+                    {
+                        "id": 15,
+                        "nome": "Fabricaçao De Pré Moldados",
+                        "unidade": "un",
+                        "quantidade_fisica": 30.0,
+                        "producao_equipe_dia": 0.8,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 19,
+                        "quantidade_executada": 10.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Armador": 1,
+                            "Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 9,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": [
+                            {
+                                "data": "2027-01-10",
+                                "acumulado": 10.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-08"
+                    },
+                    {
+                        "id": 16,
+                        "nome": "Montagem De Pilares Pré Moldados",
+                        "unidade": "un",
+                        "quantidade_fisica": 6.0,
+                        "producao_equipe_dia": 2.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 3,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 14,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            },
+                            {
+                                "id": 15,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 17,
+                        "nome": "Montagem De Paredes E Vigas Pré Moldadas",
+                        "unidade": "un",
+                        "quantidade_fisica": 12.0,
+                        "producao_equipe_dia": 4.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 3,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 1,
+                            "Servente": 1,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 16,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 18,
+                        "nome": "Montagem De Laje Pré Moldada",
+                        "unidade": "un",
+                        "quantidade_fisica": 12.0,
+                        "producao_equipe_dia": 5.0,
+                        "quantidade_equipes": 1,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 3,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Pedreiro": 2,
+                            "Servente": 2,
+                            "Operador De Maquina": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 17,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    }
+                ]
+            },
+            "Mecânica": {
+                "Cobertura Metalica": [
+                    {
+                        "id": 19,
+                        "nome": "Fabricação De Estrutura Metalica Para Cobertura Tipo Shed (Em Galpão/Oficina)",
+                        "unidade": "kg",
+                        "quantidade_fisica": 5000.0,
+                        "producao_equipe_dia": 240.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 11,
+                        "quantidade_executada": 200.0,
+                        "equipe_basica": {
+                            "Soldados Industrial": 1,
+                            "Serralheiro/Montador": 1,
+                            "Ajudante/Servente": 2
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 10,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": [
+                            {
+                                "data": "2027-01-10",
+                                "acumulado": 200.0
+                            }
+                        ],
+                        "inicio_real": "2027-01-08"
+                    },
+                    {
+                        "id": 20,
+                        "nome": "Montagem E Içamento De Estrutura Metálica Shed No Canteiro",
+                        "unidade": "kg",
+                        "quantidade_fisica": 5000.0,
+                        "producao_equipe_dia": 160.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 16,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Serralheiro/Montador": 2,
+                            "Ajudante/Servente": 2,
+                            "Rigger/Guindasteiro": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 10,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            },
+                            {
+                                "id": 18,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    },
+                    {
+                        "id": 21,
+                        "nome": "Acabamentos Da Cobertura Shed (Telhamento, Lanternim E Fechamentos Opostos)",
+                        "unidade": "m2",
+                        "quantidade_fisica": 200.0,
+                        "producao_equipe_dia": 16.0,
+                        "quantidade_equipes": 2,
+                        "dia_inicio_planejado": 1,
+                        "duracao_dias_planejada": 7,
+                        "quantidade_executada": 0.0,
+                        "equipe_basica": {
+                            "Serralheiro/Montador": 1,
+                            "Ajudante/Servente": 1
+                        },
+                        "observacao": "",
+                        "predecessoras": [
+                            {
+                                "id": 20,
+                                "tipo": "TI",
+                                "lag_dias": 0
+                            }
+                        ],
+                        "medicoes": []
+                    }
+                ]
+            }
+        }
+    }
+]

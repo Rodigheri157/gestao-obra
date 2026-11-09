@@ -1,0 +1,1003 @@
+[
+    {
+        "nome": "Serviços Preliminares",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Limpeza De Terreno",
+                "unidade": "m2",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Locação De Obra",
+                "unidade": "m2",
+                "producao_equipe_dia": 32.0,
+                "equipe_basica": {
+                    "Carpinteiro": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Infraestrutura",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Perfuração De Estacas Com Perfuratriz",
+                "unidade": "m",
+                "producao_equipe_dia": 30.0,
+                "equipe_basica": {
+                    "Operador De Maquina": 1,
+                    "Pedreiro": 1,
+                    "Servente": 2
+                }
+            },
+            {
+                "nome": "Corte E Dobra De Aço Para Estacas",
+                "unidade": "kg",
+                "producao_equipe_dia": 175.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Montagem De Aço Para Estacas",
+                "unidade": "kg",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Concretagem De Estaca",
+                "unidade": "m3",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Arrasamento De Estacas (30 A 40 Cm)",
+                "unidade": "un",
+                "producao_equipe_dia": 4.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Perfuração De Estaca Diametro De 800 Mm",
+                "unidade": "m",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Operador De Maquina": 1,
+                    "Servente": 3
+                }
+            },
+            {
+                "nome": "Arrasamento De Estaca 800 Mm",
+                "unidade": "un",
+                "producao_equipe_dia": 2.0,
+                "equipe_basica": {
+                    "Servente": 2
+                }
+            },
+            {
+                "nome": "Escavação Manual 1Ra Cat Para Blocos De Concreto",
+                "unidade": "m3",
+                "producao_equipe_dia": 10.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 5
+                }
+            },
+            {
+                "nome": "Corte E Dobra De Aço Para Blocos",
+                "unidade": "kg",
+                "producao_equipe_dia": 100.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Montagem De Aço Para Blocos",
+                "unidade": "kg",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Concretagem De Blocos",
+                "unidade": "m3",
+                "producao_equipe_dia": 60.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Escavação De Vigas Baldrames",
+                "unidade": "m3",
+                "producao_equipe_dia": 10.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 5
+                }
+            },
+            {
+                "nome": "Corte E Dobra De Aço Para Vigas",
+                "unidade": "kg",
+                "producao_equipe_dia": 100.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Montagem De Aço Para Vigas",
+                "unidade": "kg",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Concretagem De Vigas Baldrames",
+                "unidade": "m3",
+                "producao_equipe_dia": 60.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Fabricação E Colocação De Formas Comum De Compensado",
+                "unidade": "m2",
+                "producao_equipe_dia": 2.94,
+                "equipe_basica": {
+                    "Carpinteiro": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Terraplanagem",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Limpeza De Camada Vegetal",
+                "unidade": "m2",
+                "producao_equipe_dia": 12000.0,
+                "equipe_basica": {
+                    "Operador De Maquina": 1
+                }
+            },
+            {
+                "nome": "Corte E Trasporte De Solo De 1Ra Categoria",
+                "unidade": "m3",
+                "producao_equipe_dia": 920.0,
+                "equipe_basica": {
+                    "Operador De Maquina": 5
+                }
+            },
+            {
+                "nome": "Aterro Compactado De Solo 1Ra Categoria Com Uso De Motoniveladora, Caminhao Pipa E Rolo Pé De Carneiro",
+                "unidade": "m3",
+                "producao_equipe_dia": 720.0,
+                "equipe_basica": {
+                    "Operador De Maquina": 3,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Mobilização De Equipe",
+                "unidade": "un",
+                "producao_equipe_dia": 0.166,
+                "equipe_basica": {}
+            },
+            {
+                "nome": "Montagem De Canteiro",
+                "unidade": "un",
+                "producao_equipe_dia": 0.125,
+                "equipe_basica": {}
+            },
+            {
+                "nome": "Acompanhamento Topografico",
+                "unidade": "%",
+                "producao_equipe_dia": 0.0,
+                "equipe_basica": {
+                    "Topografo": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Acompanhamento Laboratorista",
+                "unidade": "%",
+                "producao_equipe_dia": 0.0,
+                "equipe_basica": {
+                    "Laboratorista": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Superestrutura - Pilares",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Fabricaçãoe Montagem De Formas",
+                "unidade": "m2",
+                "producao_equipe_dia": 2.94,
+                "equipe_basica": {
+                    "Carpinteiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Desfôrma Fôrmas Comuns",
+                "unidade": "m2",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Carpinteiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Corte E Dobra De Aço Ca-50",
+                "unidade": "kg",
+                "producao_equipe_dia": 100.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Montagem De Aço Ca-50",
+                "unidade": "kg",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Superestrutura - Vigas",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Fabricaçãoe Montagem De Formas",
+                "unidade": "m2",
+                "producao_equipe_dia": 2.94,
+                "equipe_basica": {
+                    "Carpinteiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Desfôrma Fôrmas Comuns",
+                "unidade": "m2",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Carpinteiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Corte E Dobra De Aço Ca-50",
+                "unidade": "kg",
+                "producao_equipe_dia": 100.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Montagem De Aço Ca-50",
+                "unidade": "kg",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Superestrutura - Lajes",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Fabricação E Montagem De Fôrmas De Madeira Para Laje",
+                "unidade": "m2",
+                "producao_equipe_dia": 4.8,
+                "equipe_basica": {
+                    "Carpinteiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Desfôrma Fôrmas Comuns",
+                "unidade": "m2",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Carpinteiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Corte, Dobra E Armação De Aço Em Laje (Aço Ca-50 / Ca-60)",
+                "unidade": "kg",
+                "producao_equipe_dia": 160.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Concretagem De Laje (Lançamento, Adensamento E Acabamento)",
+                "unidade": "m3",
+                "producao_equipe_dia": 4.8,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 2
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Superestrutura - Pre Moldados",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Fabricaçao De Pré Moldados",
+                "unidade": "un",
+                "producao_equipe_dia": 0.8,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Armador": 1,
+                    "Servente": 2
+                }
+            },
+            {
+                "nome": "Montagem De Pilares Pré Moldados",
+                "unidade": "un",
+                "producao_equipe_dia": 2.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1,
+                    "Operador De Maquina": 1
+                }
+            },
+            {
+                "nome": "Montagem De Paredes E Vigas Pré Moldadas",
+                "unidade": "un",
+                "producao_equipe_dia": 4.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1,
+                    "Operador De Maquina": 1
+                }
+            },
+            {
+                "nome": "Montagem De Laje Pré Moldada",
+                "unidade": "un",
+                "producao_equipe_dia": 5.0,
+                "equipe_basica": {
+                    "Pedreiro": 2,
+                    "Servente": 2,
+                    "Operador De Maquina": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Superestrutura - Laje Para Balança Rodoviaria",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Fabricação E Colocação De Forma Para Laje De Balança De 30 Metros",
+                "unidade": "un",
+                "producao_equipe_dia": 0.08,
+                "equipe_basica": {
+                    "Carpinteiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Corte E Dobra De Aço Ca-50",
+                "unidade": "kg",
+                "producao_equipe_dia": 100.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Montagem De Aço",
+                "unidade": "kg",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Concretagem",
+                "unidade": "m3",
+                "producao_equipe_dia": 60.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Desforma",
+                "unidade": "un",
+                "producao_equipe_dia": 0.5,
+                "equipe_basica": {
+                    "Carpinteiro": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Pisos Industriais",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Preparação De Sub Base, Instalação De Formas De Junta E Lona Plastica",
+                "unidade": "m2",
+                "producao_equipe_dia": 40.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 2
+                }
+            },
+            {
+                "nome": "Posicionamento De Armação Em Tela Soldada Dupla",
+                "unidade": "m2",
+                "producao_equipe_dia": 56.0,
+                "equipe_basica": {
+                    "Armador": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Concretagem, Lançamento E Reguagem",
+                "unidade": "m2",
+                "producao_equipe_dia": 44.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 2
+                }
+            },
+            {
+                "nome": "Acabamento Mecanico Com Bailarina",
+                "unidade": "m2",
+                "producao_equipe_dia": 48.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Execução De Calçada Externa 1 Metro",
+                "unidade": "m",
+                "producao_equipe_dia": 5.6,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Aterro Compactado Em Área Confinada",
+                "unidade": "m3",
+                "producao_equipe_dia": 4.8,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Alvenaria E Divisórias",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Alvenaria De Tijolo 15 Cm",
+                "unidade": "m2",
+                "producao_equipe_dia": 6.8,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Chapisco Convencional",
+                "unidade": "m2",
+                "producao_equipe_dia": 64.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Reboco / Massa Única",
+                "unidade": "m2",
+                "producao_equipe_dia": 10.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Forro",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Forro Com Telha Termoacustica",
+                "unidade": "m2",
+                "producao_equipe_dia": 14.4,
+                "equipe_basica": {
+                    "Montador De Estrutura/Telhador": 1,
+                    "Ajudante De Montador": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Cobetura Metalica",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Fabricação De Estrutura Metálica Para Cobertura",
+                "unidade": "kg",
+                "producao_equipe_dia": 240.0,
+                "equipe_basica": {
+                    "Soldador Industrial": 1,
+                    "Serralheiro/Montador": 1,
+                    "Ajudante Serralheiro/Montador": 1
+                }
+            },
+            {
+                "nome": "Montagem De Estrutura Metalica Para Cobertura",
+                "unidade": "kg",
+                "producao_equipe_dia": 160.0,
+                "equipe_basica": {
+                    "Serralheiro/Montador": 1,
+                    "Ajudante Serralheiro/Montador": 1,
+                    "Operador De Maquina": 1
+                }
+            },
+            {
+                "nome": "Montagem De Telha Metalica Para Cobertura",
+                "unidade": "m2",
+                "producao_equipe_dia": 24.0,
+                "equipe_basica": {
+                    "Serralheiro/Montador": 1,
+                    "Ajudante Serralheiro/Montador": 1
+                }
+            },
+            {
+                "nome": "Montagem De Telha Metálica Para Platibanda",
+                "unidade": "m2",
+                "producao_equipe_dia": 16.0,
+                "equipe_basica": {
+                    "Serralheiro/Montador": 1,
+                    "Ajudante Serralheiro/Montador": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Instalações Hidraulicas",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Banheiro Simples Completo (Intalaçao Embutida Na Alvenaria)",
+                "unidade": "un",
+                "producao_equipe_dia": 0.4,
+                "equipe_basica": {
+                    "Encanador Bombeiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Instalação De Louças E Metais",
+                "unidade": "un",
+                "producao_equipe_dia": 1.28,
+                "equipe_basica": {
+                    "Encanador Bombeiro": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Eletrica Predial",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Instalação De Caixa De Passagem Pré Moldade (40X40X40) Com Tampa",
+                "unidade": "un",
+                "producao_equipe_dia": 4.8,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Escavação De Vala, Assentamento De Eletroduto Flexível E Reaterro Compactado",
+                "unidade": "m",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Operador De Maquina": 1,
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Pug Completo (Infra + Fiação + Dispositivo)",
+                "unidade": "un",
+                "producao_equipe_dia": 5.0,
+                "equipe_basica": {
+                    "Eletricista Predial": 1,
+                    "Ajudante Eletricista": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Esquadrias",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Instalação De Porta 1 Folha",
+                "unidade": "un",
+                "producao_equipe_dia": 2.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Instalação De Janela (M2)",
+                "unidade": "m2",
+                "producao_equipe_dia": 4.4,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Estruturas Metálicas",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Fabricação De Estrutura Metálica Em Oficina/Galpão",
+                "unidade": "kg",
+                "producao_equipe_dia": 280.0,
+                "equipe_basica": {
+                    "Serralheiro/Montador": 1,
+                    "Soldador Industrial": 1,
+                    "Ajudante Serralheiro/Montador": 1
+                }
+            },
+            {
+                "nome": "Montagem E Fixação De Estruturas Metalicas Em Canteiro (Passarelas/Escadas)",
+                "unidade": "kg",
+                "producao_equipe_dia": 560.0,
+                "equipe_basica": {
+                    "Montador De Estrutura/Telhador": 1,
+                    "Ajudante De Montador": 1,
+                    "Operador De Maquina": 1
+                }
+            },
+            {
+                "nome": "Fabricação E Instalação De Guarda Corpo Tubular Em Aço Carbono",
+                "unidade": "m",
+                "producao_equipe_dia": 4.0,
+                "equipe_basica": {
+                    "Serralheiro/Montador": 1,
+                    "Montador De Estrutura/Telhador": 1,
+                    "Ajudante De Montador": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Cobertura Metalica",
+        "disciplina": "Mecânica",
+        "subetapas": [
+            {
+                "nome": "Fabricação De Estrutura Metalica Para Cobertura Tipo Shed (Em Galpão/Oficina)",
+                "unidade": "kg",
+                "producao_equipe_dia": 240.0,
+                "equipe_basica": {
+                    "Soldados Industrial": 1,
+                    "Serralheiro/Montador": 1,
+                    "Ajudante/Servente": 2
+                }
+            },
+            {
+                "nome": "Montagem E Içamento De Estrutura Metálica Shed No Canteiro",
+                "unidade": "kg",
+                "producao_equipe_dia": 160.0,
+                "equipe_basica": {
+                    "Serralheiro/Montador": 2,
+                    "Ajudante/Servente": 2,
+                    "Rigger/Guindasteiro": 1
+                }
+            },
+            {
+                "nome": "Acabamentos Da Cobertura Shed (Telhamento, Lanternim E Fechamentos Opostos)",
+                "unidade": "m2",
+                "producao_equipe_dia": 16.0,
+                "equipe_basica": {
+                    "Serralheiro/Montador": 1,
+                    "Ajudante/Servente": 1
+                }
+            },
+            {
+                "nome": "Montagem De Telha Metálica Para Cobertura",
+                "unidade": "m2",
+                "producao_equipe_dia": 28.0,
+                "equipe_basica": {}
+            }
+        ]
+    },
+    {
+        "nome": "Spda",
+        "disciplina": "Elétrica",
+        "subetapas": [
+            {
+                "nome": "Escavação De Vala",
+                "unidade": "m",
+                "producao_equipe_dia": 11.0,
+                "equipe_basica": {
+                    "Servente": 2
+                }
+            },
+            {
+                "nome": "Escavação Mecanizada De Vala",
+                "unidade": "m",
+                "producao_equipe_dia": 160.0,
+                "equipe_basica": {
+                    "Servente": 1,
+                    "Operador De Maquina": 1
+                }
+            },
+            {
+                "nome": "Lançamento De Cabo De Cobre Nu Em Vala",
+                "unidade": "m",
+                "producao_equipe_dia": 50.0,
+                "equipe_basica": {
+                    "Eletricista": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Cravação De Haste De Aterramento E Solda Exotermica",
+                "unidade": "un",
+                "producao_equipe_dia": 8.0,
+                "equipe_basica": {
+                    "Eletricista": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Condutor De Descida",
+                "unidade": "m",
+                "producao_equipe_dia": 16.0,
+                "equipe_basica": {
+                    "Eletricista": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Malha De Captação Média Em Cobertura",
+                "unidade": "m",
+                "producao_equipe_dia": 16.0,
+                "equipe_basica": {
+                    "Eletricista": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Instalação De Mastro De Captador Franklin",
+                "unidade": "un",
+                "producao_equipe_dia": 2.4,
+                "equipe_basica": {
+                    "Eletricista": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Piso Predial",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Execução De Contrapiso",
+                "unidade": "m2",
+                "producao_equipe_dia": 10.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            },
+            {
+                "nome": "Aplicação De Piso Ceramico",
+                "unidade": "m2",
+                "producao_equipe_dia": 8.0,
+                "equipe_basica": {
+                    "Pedreiro": 1,
+                    "Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Limpeza Final",
+        "disciplina": "Civil",
+        "subetapas": [
+            {
+                "nome": "Limpeza De Pisos E Revestimentos",
+                "unidade": "m2",
+                "producao_equipe_dia": 20.0,
+                "equipe_basica": {
+                    "Servente": 2
+                }
+            },
+            {
+                "nome": "Limpeza De Vidros",
+                "unidade": "m2",
+                "producao_equipe_dia": 13.33,
+                "equipe_basica": {
+                    "Servente": 2
+                }
+            },
+            {
+                "nome": "Limpeza Geral",
+                "unidade": "m2",
+                "producao_equipe_dia": 11.43,
+                "equipe_basica": {
+                    "Servente": 2
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Estrutura Metálica",
+        "disciplina": "Mecânica",
+        "subetapas": [
+            {
+                "nome": "Grades Metálicas",
+                "unidade": "m2",
+                "producao_equipe_dia": 10.0,
+                "equipe_basica": {
+                    "Serralheiro/Montador": 1,
+                    "Ajudante/Servente": 1
+                }
+            },
+            {
+                "nome": "Estrutura Metalica Pesada (Acima De 20 Ton)",
+                "unidade": "ton",
+                "producao_equipe_dia": 30.0,
+                "equipe_basica": {
+                    "Rigger/Guindasteiro": 1,
+                    "Ajudante/Servente": 1,
+                    "Serralheiro/Montador": 1,
+                    "Montador Industrial": 1
+                }
+            },
+            {
+                "nome": "Esturura Metálicas Médias (5 A 20 Ton)",
+                "unidade": "ton",
+                "producao_equipe_dia": 70.0,
+                "equipe_basica": {
+                    "Rigger/Guindasteiro": 1,
+                    "Ajudante/Servente": 1,
+                    "Montador Industrial": 1
+                }
+            },
+            {
+                "nome": "Estruturas Leves (Até 5 Ton)",
+                "unidade": "ton",
+                "producao_equipe_dia": 150.0,
+                "equipe_basica": {
+                    "Montador Industrial": 1,
+                    "Rigger/Guindasteiro": 1,
+                    "Serralheiro/Montador": 1,
+                    "Soldados Industrial": 1
+                }
+            },
+            {
+                "nome": "Pontes Rolantes",
+                "unidade": "ton",
+                "producao_equipe_dia": 70.0,
+                "equipe_basica": {
+                    "Montador Industrial": 1,
+                    "Rigger/Guindasteiro": 1,
+                    "Soldados Industrial": 1,
+                    "Ajudante/Servente": 1
+                }
+            },
+            {
+                "nome": "Escada Sem Corrimao",
+                "unidade": "m",
+                "producao_equipe_dia": 180.0,
+                "equipe_basica": {
+                    "Montador Industrial": 1,
+                    "Ajudante/Servente": 1,
+                    "Rigger/Guindasteiro": 1
+                }
+            },
+            {
+                "nome": "Suporte De Tubulação",
+                "unidade": "kg",
+                "producao_equipe_dia": 16.0,
+                "equipe_basica": {
+                    "Soldados Industrial": 1,
+                    "Serralheiro/Montador": 1
+                }
+            },
+            {
+                "nome": "Suporte Para Eletricidade",
+                "unidade": "kg",
+                "producao_equipe_dia": 13.33,
+                "equipe_basica": {
+                    "Soldados Industrial": 1,
+                    "Serralheiro/Montador": 1
+                }
+            },
+            {
+                "nome": "Suporte Para Instrumento",
+                "unidade": "kg",
+                "producao_equipe_dia": 11.43,
+                "equipe_basica": {
+                    "Soldados Industrial": 1,
+                    "Ajudante/Servente": 1
+                }
+            }
+        ]
+    },
+    {
+        "nome": "Instalação De Instrumentos",
+        "disciplina": "Instrumentação",
+        "subetapas": [
+            {
+                "nome": "Instalação De Instrumento De Campo De Pequeno/Médio Porte",
+                "unidade": "un",
+                "producao_equipe_dia": 1.6,
+                "equipe_basica": {
+                    "Técnico Intrumentista": 1,
+                    "Ajudante": 1
+                }
+            }
+        ]
+    }
+]

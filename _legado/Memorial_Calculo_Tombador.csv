@@ -1,0 +1,9 @@
+﻿MEMORIAL DE CÁLCULO E PRODUTIVIDADE DE ENGENHARIA
+OBRA:;TOMBADOR
+
+Disciplina;Etapa;SubEtapa;Quantidade Física;Unidade;Produtividade (Equipe/Dia);Duração Estimada (Dias);Fórmula do Cálculo
+Civil;Seviços Preliminares;Limpeza Do Terreno;400.0;m2;200.0;2;"=ARRED.PARA.CIMA(D5/F5; 0)"
+Civil;Seviços Preliminares;Locação De Obra;400.0;m2;32.0;13;"=ARRED.PARA.CIMA(D6/F6; 0)"
+Civil;Fundação;Escavação Com Perfuratriz;100.0;m;30.0;4;"=ARRED.PARA.CIMA(D7/F7; 0)"
+Civil;Fundação;Corte E Dobra De Aço;0;-;0;0;-
+Civil;Fundação;Concretagem;0;-;0;0;-

@@ -1,0 +1,92 @@
+[
+    {
+        "id": "PRJ-001",
+        "nome": "Viamaris",
+        "cliente": "Caramuru E 3Tentos",
+        "data_inicio": "2025-12-01",
+        "areas": {
+            "Recebimento": [
+                "Classificação",
+                "Balança De Entrada",
+                "Tunel Da Moega",
+                "Tombador",
+                "Balança De Saída",
+                "Elevador"
+            ],
+            "Armazenamento": [
+                "Silo 01",
+                "Armazem De Farelo"
+            ],
+            "Expedição": [
+                "Vala De Expedição",
+                "To-340",
+                "To-440",
+                "Espias",
+                "Pier"
+            ],
+            "Áreas De Apoio": [
+                "Portaria",
+                "Casa De Bombas",
+                "Caixa D' Água",
+                "Refeitório",
+                "Banheiro Motoristas"
+            ],
+            "Infraestrutura Elétrica": [
+                "Substaçào De Entrada/Medição",
+                "Substação 01",
+                "Substação 02",
+                "Se 01",
+                "Se 02",
+                "Rede Postes E Iluminação"
+            ]
+        },
+        "calendario": {
+            "nome": "Calendário Viamaris (5 dias/sem, 8.0h/dia)",
+            "dias_uteis": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "horas_dia": 8.0,
+            "feriados": []
+        }
+    },
+    {
+        "id": "PRJ-002",
+        "nome": "Grao Para",
+        "cliente": "3Tentos",
+        "data_inicio": "05/01/2027",
+        "areas": {
+            "Armazenagem De Grãos": [
+                "Terraplanagem"
+            ],
+            "Caldeira": [
+                "Terraplanagem"
+            ],
+            "Destilaria": [
+                "Terraplanagem"
+            ],
+            "Armazem De Ddgs": [
+                "Terraplanagem"
+            ],
+            "Áreas De Apoio": [
+                "Portaria Principal"
+            ]
+        },
+        "calendario": {
+            "nome": "Calendário Grao Para (5 dias/sem, 8.0h/dia)",
+            "dias_uteis": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "horas_dia": 8.0,
+            "feriados": []
+        },
+        "valor_hh": 1.0
+    }
+]
